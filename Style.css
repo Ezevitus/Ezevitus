@@ -1,0 +1,260 @@
+*{
+  margin: 0px;
+  padding: 0px;
+}
+header{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: #606;
+  width: 100%;
+  color: #fff;
+  padding: 20px;
+  transition: all 2s ease-out;
+}
+
+body{
+  background: #eee;
+  width: 100%;
+}
+
+.menu{
+  display: block;
+  width: 23px;
+  cursor: pointer;
+}
+.nav{
+  padding: 20px;
+}
+.nav a{
+  margin-right: 10px;
+  text-decoration: thick;
+  font-weight: bold;
+}
+.menu span{
+  display: block;
+  background: white;
+  height: 1px;
+  width: 100%;
+  margin-top: 4px;
+  margin-bottom: 4px;
+}
+.menu::before{
+  content: "";
+  display: block;
+  background: white;
+  height: 1px;
+  width: 100%;
+}
+.menu::after{
+content: "";
+  display: block;
+  background: white;
+  height: 1px;
+  width: 100%;
+}
+/*footer{ */
+footer{
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  align-items: center;
+  background: purple;
+  padding: 10px;
+  color: #fff;
+  height: 60px;
+}
+
+#blog-title{
+  color: #222;
+  font-size: 17px;
+  margin-bottom: 10px;
+}
+.content{
+  font-size: 14px;
+  color: #5d5b5b;
+}
+#card{
+  background: #fff;
+  margin: 10px 10px 10px 10px;
+  padding: 20px;
+}
+
+#card img{
+  width: 100%;
+  margin-bottom: 10px;
+}
+
+
+
+/*form box*/
+.wrapper{
+  display: block;
+  width: 240px;
+  margin: 10px auto;
+}
+.wrapper input{
+  padding: 10px;
+  border-radius: 4px;
+  border: 1px solid green;
+  outline: none;
+  display: block;
+  width: 100%;
+  margin: 5px 0 10px;
+}
+.my{
+  padding: 10px;
+  outline: none;
+  display: inline;
+  background: purple;;
+  align-items: center;
+  justify-content: center;
+  width: 110%;
+  margin: 5px 0 10px;
+  height: 40px;
+  color: white;
+  border: none;
+  box-sizing: border-box;
+  cursor: pointer;
+  font-size: 12px;
+  transition: 2s ease;
+}
+.my:hover{
+  background: green;
+}
+button{
+  padding: 10px;
+  outline: none;
+  display: inline;
+  background: purple;;
+  align-items: center;
+  justify-content: center;
+  width: 110%;
+  margin: 5px 0 10px;
+  height: 40px;
+  color: white;
+  border: none;
+  box-sizing: border-box;
+  cursor: pointer;
+  font-size: 12px;
+  transition: 2s ease;
+}
+button :hover{
+  background: green;
+}
+
+.container{
+  width: 100%;
+  min-height: 100vh;
+  background: linear-gradient(45deg, transparent, #009688);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 5%;
+}
+.signup-box{
+  display: 
+  align-items:;
+  width: 100%;
+  max-width: 800px;
+  flex-basis: wrap;
+}
+.col-1, .col-2{
+  flex-basis: 50%;
+  flex-grow: 1;
+}
+.col-1 img{
+  width: 100%;
+  display: block;
+}
+.col-2{
+  background: #fff;
+  padding: 40px 8%;
+  color: #333;
+  min-width: 250px;
+}
+.col-2 h2{
+  font-weight: 600;
+}
+.col-2 span{
+  font-size: 12px;
+}
+.col-2 span a{
+  text-decoration: red;
+  color: #ef005d;
+  font-weight: 500;
+}
+.google-link{
+  display: flex;
+  align-items: center;
+  width: 100%;
+  justify-content: center;
+  padding: 10px;
+  border-radius: 4px;
+  border: 1px solid green;
+  text-decoration: none;
+  color: #555;
+  font-size: 13px;
+  margin: 20px 0;
+}
+.google-link img{
+  width: 20px;
+  margin-right: 10px;
+}
+.col-2 h4{
+  text-align: center;
+  font-weight: 400;
+  margin-bottom: 10px;
+}
+.input-field{
+  padding: 10px;
+  border-radius: 4px;
+  border: 1px solid green;
+  outline: none;
+  display: block;
+  width: 100%;
+  margin: 5px 0 10px;
+}
+form label{
+  font-weight: 500;
+  font-size: 12px;
+}
+.row{
+  display: flex;
+  align-items:center;
+}
+.row input{
+  margin-right: 6px;
+}
+.col-2 form button{
+  display: block;
+  width: 108%;
+  height: 40px;
+  background: #333;
+  padding: 10px;
+  color: white;
+  border: none;
+  box-sizing: border-box;
+  cursor: pointer;
+  font-size: 12px;
+transition: all 1s ease-out;
+}
+.col-2 form button{
+  background: #606;
+  font-size: 16px;
+}
+
+@media screen and (min-width: 720px){
+  header{
+    background: #ff663e;
+  }
+}
+@media screen and (min-width: 960px){
+  header{
+    background: green;
+  }
+}
+
+
+
+
